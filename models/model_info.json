@@ -1,0 +1,47 @@
+{
+  "best_model_name": "Gradient Boosted Trees",
+  "best_by_auc": "Random Forest",
+  "all_models": [
+    "Random Forest",
+    "Gradient Boosted Trees",
+    "Logistic Regression"
+  ],
+  "metrics": {
+    "Random Forest": {
+      "F1-Score": 0.9970202878252623,
+      "Precision": 0.9941372868555984,
+      "Recall": 1.0,
+      "Accuracy": 0.9969040868057991,
+      "AUC-ROC": 0.9999734569524167
+    },
+    "Gradient Boosted Trees": {
+      "F1-Score": 0.9974687449532764,
+      "Precision": 0.9949252721447193,
+      "Recall": 1.0,
+      "Accuracy": 0.9974750258008276,
+      "AUC-ROC": 0.9999585092585086
+    },
+    "Logistic Regression": {
+      "F1-Score": 0.3352947273397229,
+      "Precision": 0.4949200432848383,
+      "Recall": 1.0,
+      "Accuracy": 0.500511401239396,
+      "AUC-ROC": 0.9005213040197939
+    }
+  },
+  "feature_columns": [
+    "amount",
+    "hour",
+    "day_of_week",
+    "customer_fraud_rate",
+    "merchant_fraud_rate",
+    "customer_transaction_count",
+    "customer_fraud_count",
+    "merchant_fraud_volatility"
+  ],
+  "class_weights": {
+    "0.0": 1.0,
+    "1.0": 32.33525568371225
+  },
+  "training_date": "2026-04-28 06:02:46.203770"
+}

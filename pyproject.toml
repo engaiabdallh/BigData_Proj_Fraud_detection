@@ -1,0 +1,18 @@
+[project]
+name = "fraud-detection"
+version = "0.1.0"
+description = "Fraud Detection System using PySpark"
+requires-python = ">=3.9,<3.12"  # PySpark works best with 3.9-3.11
+
+dependencies = [
+    "pyspark==3.5.0",
+    "findspark==2.0.1",
+    "pandas==2.0.3",
+    "numpy==1.24.3",
+    "streamlit==1.28.0",
+    "plotly==5.17.0",
+    "py4j==0.10.9.7",
+]
+
+[tool.uv]
+dev-dependencies = []

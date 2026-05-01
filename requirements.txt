@@ -1,0 +1,19 @@
+# requirements.txt
+# Fraud Detection System Dependencies
+# Install with: pip install -r requirements.txt
+# Or with uv: uv pip install -r requirements.txt
+
+# Core
+pyspark==3.5.0
+findspark==2.0.1
+py4j==0.10.9.7
+
+# Web Framework
+streamlit==1.28.0
+
+# Data Processing
+pandas==2.0.3
+numpy==1.24.3
+
+# Visualization
+plotly==5.17.0

@@ -1,0 +1,4 @@
+customer_id,transaction_id,transaction_timestamp,amount,merchant_category
+1001,50001,2024-01-15 14:30:00,150.0,electronics
+1002,50002,2024-01-15 22:15:00,2500.0,travel
+1003,50003,2024-01-16 09:45:00,45.5,grocery

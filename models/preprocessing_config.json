@@ -1,0 +1,29 @@
+{
+  "percentiles": [
+    258.1047808289854,
+    491.9665772600255,
+    717.3098455469666
+  ],
+  "lower_bound": 0.0004200237760931813,
+  "upper_bound": 999.9988650594619,
+  "feature_columns": [
+    "amount",
+    "hour",
+    "day_of_week",
+    "customer_fraud_rate",
+    "merchant_fraud_rate",
+    "customer_transaction_count",
+    "customer_fraud_count",
+    "merchant_fraud_volatility"
+  ],
+  "class_weights": {
+    "0.0": 1.0,
+    "1.0": 32.33525568371225
+  },
+  "target_ratio": 0.5,
+  "was_outlier_feature": true,
+  "capping_percentiles": [
+    0.005,
+    0.995
+  ]
+}
